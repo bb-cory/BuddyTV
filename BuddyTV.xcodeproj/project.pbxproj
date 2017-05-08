@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B73A4AF1EC0CD570096A1A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B73A4AE1EC0CD570096A1A1 /* main.m */; };
+		8B73A4B21EC0CD570096A1A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B73A4B11EC0CD570096A1A1 /* AppDelegate.m */; };
+		8B73A4B51EC0CD570096A1A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B73A4B41EC0CD570096A1A1 /* ViewController.m */; };
+		8B73A4B81EC0CD570096A1A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B73A4B61EC0CD570096A1A1 /* Main.storyboard */; };
+		8B73A4BA1EC0CD570096A1A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B73A4B91EC0CD570096A1A1 /* Assets.xcassets */; };
+		8B73A4C51EC0CD570096A1A1 /* BuddyTVTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B73A4C41EC0CD570096A1A1 /* BuddyTVTests.m */; };
+		8B73A4D01EC0CD570096A1A1 /* BuddyTVUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B73A4CF1EC0CD570096A1A1 /* BuddyTVUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B73A4C11EC0CD570096A1A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B73A4A21EC0CD570096A1A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B73A4A91EC0CD570096A1A1;
+			remoteInfo = BuddyTV;
+		};
+		8B73A4CC1EC0CD570096A1A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B73A4A21EC0CD570096A1A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B73A4A91EC0CD570096A1A1;
+			remoteInfo = BuddyTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B73A4AA1EC0CD570096A1A1 /* BuddyTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuddyTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B73A4AE1EC0CD570096A1A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8B73A4B01EC0CD570096A1A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8B73A4B11EC0CD570096A1A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8B73A4B31EC0CD570096A1A1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8B73A4B41EC0CD570096A1A1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8B73A4B71EC0CD570096A1A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B73A4B91EC0CD570096A1A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B73A4BB1EC0CD570096A1A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B73A4C01EC0CD570096A1A1 /* BuddyTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuddyTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B73A4C41EC0CD570096A1A1 /* BuddyTVTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuddyTVTests.m; sourceTree = "<group>"; };
+		8B73A4C61EC0CD570096A1A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B73A4CB1EC0CD570096A1A1 /* BuddyTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuddyTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B73A4CF1EC0CD570096A1A1 /* BuddyTVUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuddyTVUITests.m; sourceTree = "<group>"; };
+		8B73A4D11EC0CD570096A1A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B73A4A71EC0CD570096A1A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B73A4BD1EC0CD570096A1A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B73A4C81EC0CD570096A1A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B73A4A11EC0CD570096A1A1 = {
+			isa = PBXGroup;
+			children = (
+				8B73A4AC1EC0CD570096A1A1 /* BuddyTV */,
+				8B73A4C31EC0CD570096A1A1 /* BuddyTVTests */,
+				8B73A4CE1EC0CD570096A1A1 /* BuddyTVUITests */,
+				8B73A4AB1EC0CD570096A1A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B73A4AB1EC0CD570096A1A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B73A4AA1EC0CD570096A1A1 /* BuddyTV.app */,
+				8B73A4C01EC0CD570096A1A1 /* BuddyTVTests.xctest */,
+				8B73A4CB1EC0CD570096A1A1 /* BuddyTVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B73A4AC1EC0CD570096A1A1 /* BuddyTV */ = {
+			isa = PBXGroup;
+			children = (
+				8B73A4B01EC0CD570096A1A1 /* AppDelegate.h */,
+				8B73A4B11EC0CD570096A1A1 /* AppDelegate.m */,
+				8B73A4B31EC0CD570096A1A1 /* ViewController.h */,
+				8B73A4B41EC0CD570096A1A1 /* ViewController.m */,
+				8B73A4B61EC0CD570096A1A1 /* Main.storyboard */,
+				8B73A4B91EC0CD570096A1A1 /* Assets.xcassets */,
+				8B73A4BB1EC0CD570096A1A1 /* Info.plist */,
+				8B73A4AD1EC0CD570096A1A1 /* Supporting Files */,
+			);
+			path = BuddyTV;
+			sourceTree = "<group>";
+		};
+		8B73A4AD1EC0CD570096A1A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B73A4AE1EC0CD570096A1A1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B73A4C31EC0CD570096A1A1 /* BuddyTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B73A4C41EC0CD570096A1A1 /* BuddyTVTests.m */,
+				8B73A4C61EC0CD570096A1A1 /* Info.plist */,
+			);
+			path = BuddyTVTests;
+			sourceTree = "<group>";
+		};
+		8B73A4CE1EC0CD570096A1A1 /* BuddyTVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B73A4CF1EC0CD570096A1A1 /* BuddyTVUITests.m */,
+				8B73A4D11EC0CD570096A1A1 /* Info.plist */,
+			);
+			path = BuddyTVUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B73A4A91EC0CD570096A1A1 /* BuddyTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B73A4D41EC0CD570096A1A1 /* Build configuration list for PBXNativeTarget "BuddyTV" */;
+			buildPhases = (
+				8B73A4A61EC0CD570096A1A1 /* Sources */,
+				8B73A4A71EC0CD570096A1A1 /* Frameworks */,
+				8B73A4A81EC0CD570096A1A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BuddyTV;
+			productName = BuddyTV;
+			productReference = 8B73A4AA1EC0CD570096A1A1 /* BuddyTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B73A4BF1EC0CD570096A1A1 /* BuddyTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B73A4D71EC0CD570096A1A1 /* Build configuration list for PBXNativeTarget "BuddyTVTests" */;
+			buildPhases = (
+				8B73A4BC1EC0CD570096A1A1 /* Sources */,
+				8B73A4BD1EC0CD570096A1A1 /* Frameworks */,
+				8B73A4BE1EC0CD570096A1A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B73A4C21EC0CD570096A1A1 /* PBXTargetDependency */,
+			);
+			name = BuddyTVTests;
+			productName = BuddyTVTests;
+			productReference = 8B73A4C01EC0CD570096A1A1 /* BuddyTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B73A4CA1EC0CD570096A1A1 /* BuddyTVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B73A4DA1EC0CD570096A1A1 /* Build configuration list for PBXNativeTarget "BuddyTVUITests" */;
+			buildPhases = (
+				8B73A4C71EC0CD570096A1A1 /* Sources */,
+				8B73A4C81EC0CD570096A1A1 /* Frameworks */,
+				8B73A4C91EC0CD570096A1A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B73A4CD1EC0CD570096A1A1 /* PBXTargetDependency */,
+			);
+			name = BuddyTVUITests;
+			productName = BuddyTVUITests;
+			productReference = 8B73A4CB1EC0CD570096A1A1 /* BuddyTVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B73A4A21EC0CD570096A1A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Cory Alder";
+				TargetAttributes = {
+					8B73A4A91EC0CD570096A1A1 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					8B73A4BF1EC0CD570096A1A1 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8B73A4A91EC0CD570096A1A1;
+					};
+					8B73A4CA1EC0CD570096A1A1 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8B73A4A91EC0CD570096A1A1;
+					};
+				};
+			};
+			buildConfigurationList = 8B73A4A51EC0CD570096A1A1 /* Build configuration list for PBXProject "BuddyTV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B73A4A11EC0CD570096A1A1;
+			productRefGroup = 8B73A4AB1EC0CD570096A1A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B73A4A91EC0CD570096A1A1 /* BuddyTV */,
+				8B73A4BF1EC0CD570096A1A1 /* BuddyTVTests */,
+				8B73A4CA1EC0CD570096A1A1 /* BuddyTVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B73A4A81EC0CD570096A1A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B73A4BA1EC0CD570096A1A1 /* Assets.xcassets in Resources */,
+				8B73A4B81EC0CD570096A1A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B73A4BE1EC0CD570096A1A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B73A4C91EC0CD570096A1A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B73A4A61EC0CD570096A1A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B73A4B51EC0CD570096A1A1 /* ViewController.m in Sources */,
+				8B73A4B21EC0CD570096A1A1 /* AppDelegate.m in Sources */,
+				8B73A4AF1EC0CD570096A1A1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B73A4BC1EC0CD570096A1A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B73A4C51EC0CD570096A1A1 /* BuddyTVTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B73A4C71EC0CD570096A1A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B73A4D01EC0CD570096A1A1 /* BuddyTVUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B73A4C21EC0CD570096A1A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B73A4A91EC0CD570096A1A1 /* BuddyTV */;
+			targetProxy = 8B73A4C11EC0CD570096A1A1 /* PBXContainerItemProxy */;
+		};
+		8B73A4CD1EC0CD570096A1A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B73A4A91EC0CD570096A1A1 /* BuddyTV */;
+			targetProxy = 8B73A4CC1EC0CD570096A1A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B73A4B61EC0CD570096A1A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B73A4B71EC0CD570096A1A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B73A4D21EC0CD570096A1A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		8B73A4D31EC0CD570096A1A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B73A4D51EC0CD570096A1A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = BuddyTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftmodules.BuddyTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8B73A4D61EC0CD570096A1A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = BuddyTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftmodules.BuddyTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8B73A4D81EC0CD570096A1A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BuddyTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftmodules.BuddyTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuddyTV.app/BuddyTV";
+			};
+			name = Debug;
+		};
+		8B73A4D91EC0CD570096A1A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BuddyTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftmodules.BuddyTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuddyTV.app/BuddyTV";
+			};
+			name = Release;
+		};
+		8B73A4DB1EC0CD570096A1A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BuddyTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftmodules.BuddyTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BuddyTV;
+			};
+			name = Debug;
+		};
+		8B73A4DC1EC0CD570096A1A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BuddyTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftmodules.BuddyTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BuddyTV;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B73A4A51EC0CD570096A1A1 /* Build configuration list for PBXProject "BuddyTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B73A4D21EC0CD570096A1A1 /* Debug */,
+				8B73A4D31EC0CD570096A1A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B73A4D41EC0CD570096A1A1 /* Build configuration list for PBXNativeTarget "BuddyTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B73A4D51EC0CD570096A1A1 /* Debug */,
+				8B73A4D61EC0CD570096A1A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8B73A4D71EC0CD570096A1A1 /* Build configuration list for PBXNativeTarget "BuddyTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B73A4D81EC0CD570096A1A1 /* Debug */,
+				8B73A4D91EC0CD570096A1A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8B73A4DA1EC0CD570096A1A1 /* Build configuration list for PBXNativeTarget "BuddyTVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B73A4DB1EC0CD570096A1A1 /* Debug */,
+				8B73A4DC1EC0CD570096A1A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B73A4A21EC0CD570096A1A1 /* Project object */;
+}
